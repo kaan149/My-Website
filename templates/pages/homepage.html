@@ -1,0 +1,25 @@
+{% extends "templates/layout.html" %}
+{% load static %}
+{% block content %}
+    <header class="container-fluid pt-5 pb-5" id="header0">
+        <h1 class="d-flex justify-content-center text-white font0" id="title0">ÖMER KAAN VURAL</h1>
+        <footer class="d-flex justify-content-around text-secondary font0">- Computer Science Student at Hacettepe</footer>
+        <img src="{% static 'img/icon1rm.jpg' %}" alt="" class="d-block mx-auto rounded-circle pt-3">
+    </header>
+    <main class="container-fluid" id="main-part">
+        <div class="container text-center smed" id="logos">
+            <br>
+            <a href="https://twitter.com/kaanvural0"><i class="fab fa-twitter-square" id="tw0"></i></a>
+            <a href="https://github.com/kaan149"><i class="fab fa-github-square" id="gh0"></i></a>
+            <a href="https://www.linkedin.com/in/kaan99/"><i class="fab fa-linkedin" id="li0"></i></a>
+            <a href="https://kaan-vural.blogspot.com"><i class="fab fa-blogger" id="blg0"></i></a>        
+            <br><br><br>
+            <h3 class="font0" id="articles-link"><a href="article/">ARTICLES</a></h3>
+        </div>
+        <div class="container text-center">
+            <a href="mailto:kaan.vural99@hotmail.com" target="_blank" class="btn btn-large font0" id="mail-button">Email Me!</a>
+        </div>
+    </main>
+{% endblock %}
+
+

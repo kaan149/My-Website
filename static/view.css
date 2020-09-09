@@ -1,0 +1,68 @@
+.smed i {
+  font-size: 50px;
+  margin: 20px;
+}
+
+.font0 {
+  font-family: 'Varela Round';
+}
+
+#header0 {
+  background-color: #444C55;
+  height: 50%;
+}
+
+#main-part {
+  background-color: #A9BCD1;
+  height: 50%;
+}
+
+#logos {
+  height: 70%;
+}
+
+#tw0 {
+  color: #1DA1F2;
+}
+
+#gh0 {
+  color: #8700FF;
+}
+
+#li0 {
+  color: #0072B1;
+}
+
+#blg0 {
+  color: #FC4F08;
+}
+
+#mail-button {
+  border: 3px solid #444C55;
+  animation: glowing 3000ms infinite;
+  
+}
+
+#title0 {
+  font-size: 65px;
+}
+
+a:hover {
+  color: #444C55;
+}
+
+@keyframes glowing {
+  0% {
+    background-color: #A9BCD1;
+    box-shadow: 0 0 3px #FFFFFF;
+  }
+  50% {
+    background-color: #444C55;
+    box-shadow: 0 0 100px #FFFFFF;
+  }
+  100% {
+    background-color: #A9BCD1;
+    box-shadow: 0 0 3px #FFFFFF;
+  }
+}
+
