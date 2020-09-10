@@ -1,2 +1,2 @@
 # My-Website
-It created with Django, Heroku and Github.
+It created by using Django, Heroku and Github.
